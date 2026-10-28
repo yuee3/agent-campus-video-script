@@ -1,0 +1,78 @@
+{
+  "run_id": "r-3e8d2f8d",
+  "input_summary": {
+    "topic": "便携咖啡杯",
+    "audience": "大学生",
+    "platform": "抖音",
+    "target_duration": 90,
+    "style": "轻松种草"
+  },
+  "status": "delivered",
+  "message": "脚本已生成并通过时长与规则检查（仅交付脚本，不执行真实发布）",
+  "script": {
+    "title": "《便携咖啡杯》完整版短视频脚本",
+    "audience": "大学生",
+    "platform": "抖音",
+    "style": "轻松种草",
+    "scenes": [
+      {
+        "scene_no": 1,
+        "type": "hook",
+        "based_on": null,
+        "narration": "还在犹豫怎么选吗？今天这期便携咖啡杯主题的视频，给大家带来话题度很高的便携咖啡杯，我们一次性把它值得入手的理由讲清楚，记得看到最后。",
+        "est_sec": 18
+      },
+      {
+        "scene_no": 2,
+        "type": "fact",
+        "based_on": "P02",
+        "narration": "便携咖啡杯的核心亮点来了：316 不锈钢保温 6 小时。这一点在真实使用里相当实用，日常体验提升明显，你可以放心把它加入候选清单。",
+        "est_sec": 17
+      },
+      {
+        "scene_no": 3,
+        "type": "fact",
+        "based_on": "P02",
+        "narration": "便携咖啡杯的核心亮点来了：450ml 轻量杯身。这一点在真实使用里相当实用，日常体验提升明显，你可以放心把它加入候选清单。",
+        "est_sec": 16
+      },
+      {
+        "scene_no": 4,
+        "type": "fact",
+        "based_on": "P02",
+        "narration": "便携咖啡杯的核心亮点来了：一键开盖单手可操作。这一点在真实使用里相当实用，日常体验提升明显，你可以放心把它加入候选清单。",
+        "est_sec": 16
+      },
+      {
+        "scene_no": 5,
+        "type": "cta",
+        "based_on": null,
+        "narration": "如果这期内容对你有帮助，别忘了点赞、关注加转发，把你的想法留在评论区，我们一起交流，下期节目不见不散。",
+        "est_sec": 14
+      }
+    ],
+    "total_sec": 81
+  },
+  "sources": [
+    "P02"
+  ],
+  "risks": [],
+  "gaps": [],
+  "steps": [
+    {
+      "tool": "search_materials",
+      "status": "success"
+    },
+    {
+      "tool": "estimate_duration",
+      "status": "success"
+    },
+    {
+      "tool": "check_rules",
+      "status": "success"
+    }
+  ],
+  "steps_used": 4,
+  "step_limit": 12,
+  "trace_file": "examples/normal.trace.json"
+}

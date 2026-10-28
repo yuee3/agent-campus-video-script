@@ -1,0 +1,15 @@
+{
+  "narration_speed_chars_per_sec": 4,
+  "shot_overhead_sec": 1,
+  "banned_terms": [
+    {"term": "最好", "rule": "绝对化用语（广告法风险）"},
+    {"term": "最佳", "rule": "绝对化用语（广告法风险）"},
+    {"term": "第一", "rule": "绝对化用语（广告法风险）"},
+    {"term": "顶级", "rule": "绝对化用语（广告法风险）"},
+    {"term": "国家级", "rule": "未经认证的国家级表述"},
+    {"term": "全网第一", "rule": "绝对化用语（广告法风险）"}
+  ],
+  "unsupported_patterns": [
+    {"pattern": "\\d+\\s*%", "rule": "无数据支撑的百分比结论（素材中无对应数据时禁止）"}
+  ]
+}

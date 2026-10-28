@@ -1,0 +1,22 @@
+{
+  "run_id": "r-c544bf26",
+  "started_at": "2026-10-28T18:55:29",
+  "task": {
+    "topic": "便携咖啡杯",
+    "audience": "大学生"
+  },
+  "steps": [],
+  "final": {
+    "steps_used": 1,
+    "status": "missing_input",
+    "message": "缺少必填信息：目标时长 target_duration（秒，正数），无法开始创作",
+    "script": null,
+    "sources": [],
+    "risks": [],
+    "gaps": [
+      "缺口：目标时长 target_duration（秒，正数）"
+    ],
+    "steps": [],
+    "step_limit": 12
+  }
+}

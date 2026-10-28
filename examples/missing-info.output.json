@@ -1,0 +1,22 @@
+{
+  "run_id": "r-c544bf26",
+  "input_summary": {
+    "topic": "便携咖啡杯",
+    "audience": "大学生",
+    "platform": null,
+    "target_duration": null,
+    "style": null
+  },
+  "status": "missing_input",
+  "message": "缺少必填信息：目标时长 target_duration（秒，正数），无法开始创作",
+  "script": null,
+  "sources": [],
+  "risks": [],
+  "gaps": [
+    "缺口：目标时长 target_duration（秒，正数）"
+  ],
+  "steps": [],
+  "steps_used": 1,
+  "step_limit": 12,
+  "trace_file": "examples/missing-info.trace.json"
+}

@@ -1,0 +1,68 @@
+{
+  "run_id": "r-e55a905e",
+  "input_summary": {
+    "topic": "学习平板",
+    "audience": "大学生",
+    "platform": "抖音",
+    "target_duration": 30,
+    "style": "干货测评"
+  },
+  "status": "delivered",
+  "message": "脚本已生成并通过时长与规则检查（仅交付脚本，不执行真实发布）",
+  "script": {
+    "title": "《学习平板》精简版短视频脚本",
+    "audience": "大学生",
+    "platform": "抖音",
+    "style": "干货测评",
+    "scenes": [
+      {
+        "scene_no": 1,
+        "type": "hook",
+        "based_on": null,
+        "narration": "学习平板到底怎么选？别纠结，学习平板 X1值得选的理由，一条视频讲清楚。",
+        "est_sec": 10
+      },
+      {
+        "scene_no": 2,
+        "type": "fact",
+        "based_on": "P01",
+        "narration": "先看这条硬理由：支持字幕——就冲这一点，它在同类里已经很有诚意，日常用起来省心。",
+        "est_sec": 11
+      },
+      {
+        "scene_no": 3,
+        "type": "cta",
+        "based_on": null,
+        "narration": "觉得有用就点赞关注，把你的问题留在评论区，下期见。",
+        "est_sec": 8
+      }
+    ],
+    "total_sec": 29
+  },
+  "sources": [
+    "P01"
+  ],
+  "risks": [],
+  "gaps": [],
+  "steps": [
+    {
+      "tool": "search_materials",
+      "status": "success"
+    },
+    {
+      "tool": "estimate_duration",
+      "status": "success"
+    },
+    {
+      "tool": "estimate_duration",
+      "status": "success"
+    },
+    {
+      "tool": "check_rules",
+      "status": "success"
+    }
+  ],
+  "steps_used": 5,
+  "step_limit": 12,
+  "trace_file": "examples/over-duration.trace.json"
+}

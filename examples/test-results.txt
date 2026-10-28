@@ -1,0 +1,27 @@
+$ python -m unittest discover -s tests -v
+
+test_1_normal_delivered (test_acceptance.AcceptanceTests.test_1_normal_delivered)
+验收点：正常生成——检索 -> 首稿在时长内 -> 规则检查通过 -> 交付。 ... ok
+test_2_over_duration_compress_and_deliver (test_acceptance.AcceptanceTests.test_2_over_duration_compress_and_deliver)
+验收点（参考实例）：P01 仅含"支持字幕"事实，目标 30 秒—— ... ok
+test_3_cannot_meet_explicit_failure (test_acceptance.AcceptanceTests.test_3_cannot_meet_explicit_failure)
+验收点：超时长且压缩后仍不达标 -> 明确失败并说明缺口，不交付超时脚本。 ... ok
+test_4_missing_info (test_acceptance.AcceptanceTests.test_4_missing_info)
+验收点：缺关键信息（无目标时长）-> 返回缺口，不调用工具。 ... ok
+test_5_no_material_ask_for_more (test_acceptance.AcceptanceTests.test_5_no_material_ask_for_more)
+验收点：无素材 -> 两轮检索确认 -> 请求补充，不编造产品事实。 ... ok
+test_6_tool_failure_retry (test_acceptance.AcceptanceTests.test_6_tool_failure_retry)
+验收点：工具失败——注入一次检索失败，重试成功后正常交付； ... ok
+test_7_no_fabricated_claims (test_acceptance.AcceptanceTests.test_7_no_fabricated_claims)
+红线（参考实例）：无效数据时不得添加"效率提升 80%"等结论—— ... ok
+test_8_duration_change_alters_action (test_acceptance.AcceptanceTests.test_8_duration_change_alters_action)
+审核要点鲁棒性：改变时长，核对下一步动作是否调整—— ... ok
+test_9_max_steps_incomplete (test_acceptance.AcceptanceTests.test_9_max_steps_incomplete)
+边界：达到步数上限时返回明确的未完成状态。 ... ok
+test_cli_invalid_input_nonzero (test_acceptance.CliTests.test_cli_invalid_input_nonzero) ... ok
+test_cli_normal_exit_zero_and_trace (test_acceptance.CliTests.test_cli_normal_exit_zero_and_trace) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.255s
+
+OK

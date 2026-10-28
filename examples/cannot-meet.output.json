@@ -1,0 +1,35 @@
+{
+  "run_id": "r-b884c540",
+  "input_summary": {
+    "topic": "学习平板",
+    "audience": "大学生",
+    "platform": "抖音",
+    "target_duration": 10,
+    "style": "干货测评"
+  },
+  "status": "cannot_meet",
+  "message": "最精简版本估算仍为 29 秒，无法满足目标时长 10 秒",
+  "script": null,
+  "sources": [],
+  "risks": [],
+  "gaps": [
+    "无法满足时长要求：压缩后最短可得约 29 秒，超出目标 10 秒约 19 秒，不交付超时脚本"
+  ],
+  "steps": [
+    {
+      "tool": "search_materials",
+      "status": "success"
+    },
+    {
+      "tool": "estimate_duration",
+      "status": "success"
+    },
+    {
+      "tool": "estimate_duration",
+      "status": "success"
+    }
+  ],
+  "steps_used": 4,
+  "step_limit": 12,
+  "trace_file": "examples/cannot-meet.trace.json"
+}
